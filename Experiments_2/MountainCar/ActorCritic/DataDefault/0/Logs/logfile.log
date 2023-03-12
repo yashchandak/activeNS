@@ -1,0 +1,125 @@
+/home/yash/Projects/Control-NSDP/Environments
+Module path:  Environments.MountainCar MountainCar
+Dynamically loaded from:  <class 'Environments.MountainCar.MountainCar'>
+Module path:  Src.Algorithms.ActorCritic ActorCritic
+Dynamically loaded from:  <class 'Src.Algorithms.ActorCritic.ActorCritic'>
+=====Configurations=====
+ Namespace(actor_lr=0.0005, algo_name='ActorCritic', alpha=0.5, base=0, batch_size=1, critic_lr=0.005, debug=True, entropy_lambda=0.0001, env_name='MountainCar', experiment='Data', folder_suffix='Default', gamma=1, gpu=0, hyper=0, inc=23, log_output='term_file', max_episodes=10000, optim='rmsprop', raw_basis=False, restore=False, save_count=100, save_model=True, seed=23, speed=0, state_lr=0.0005, summary=True, swarm=False, timestamp='4|5|9:11:13')
+Actions space: 3 :: State space: 2
+State Low: tensor([-1.2000, -0.0700]) :: State High: tensor([0.6000, 0.0700])
+State features:  [('dummy_param', torch.Size([1]))]
+Policy:  [('fc1.weight', torch.Size([3, 16])), ('fc1.bias', torch.Size([3]))]
+Critic:  [('fc1.weight', torch.Size([1, 16])), ('fc1.bias', torch.Size([1]))]
+Loaded model from last checkpoint...
+Beta Collected 0/2000 :: Average return -252.0
+Beta Collected 20/2000 :: Average return -173.0
+Beta Collected 40/2000 :: Average return -195.0
+Beta Collected 60/2000 :: Average return -251.0
+Beta Collected 80/2000 :: Average return -153.0
+Beta Collected 100/2000 :: Average return -257.0
+Beta Collected 120/2000 :: Average return -300.0
+Beta Collected 140/2000 :: Average return -300.0
+Beta Collected 160/2000 :: Average return -300.0
+Beta Collected 180/2000 :: Average return -224.0
+Beta Collected 200/2000 :: Average return -116.0
+Beta Collected 220/2000 :: Average return -156.0
+Beta Collected 240/2000 :: Average return -300.0
+Beta Collected 260/2000 :: Average return -216.0
+Beta Collected 280/2000 :: Average return -300.0
+Beta Collected 300/2000 :: Average return -203.0
+Beta Collected 320/2000 :: Average return -225.0
+Beta Collected 340/2000 :: Average return -147.0
+Beta Collected 360/2000 :: Average return -226.0
+Beta Collected 380/2000 :: Average return -173.0
+Beta Collected 400/2000 :: Average return -300.0
+Beta Collected 420/2000 :: Average return -222.0
+Beta Collected 440/2000 :: Average return -300.0
+Beta Collected 460/2000 :: Average return -300.0
+Beta Collected 480/2000 :: Average return -300.0
+Beta Collected 500/2000 :: Average return -156.0
+Beta Collected 520/2000 :: Average return -244.0
+Beta Collected 540/2000 :: Average return -173.0
+Beta Collected 560/2000 :: Average return -92.0
+Beta Collected 580/2000 :: Average return -152.0
+Beta Collected 600/2000 :: Average return -163.0
+Beta Collected 620/2000 :: Average return -200.0
+Beta Collected 640/2000 :: Average return -226.0
+Beta Collected 660/2000 :: Average return -288.0
+Beta Collected 680/2000 :: Average return -160.0
+Beta Collected 700/2000 :: Average return -208.0
+Beta Collected 720/2000 :: Average return -157.0
+Beta Collected 740/2000 :: Average return -261.0
+Beta Collected 760/2000 :: Average return -140.0
+Beta Collected 780/2000 :: Average return -182.0
+Beta Collected 800/2000 :: Average return -300.0
+Beta Collected 820/2000 :: Average return -182.0
+Beta Collected 840/2000 :: Average return -222.0
+Beta Collected 860/2000 :: Average return -94.0
+Beta Collected 880/2000 :: Average return -177.0
+Beta Collected 900/2000 :: Average return -146.0
+Beta Collected 920/2000 :: Average return -163.0
+Beta Collected 940/2000 :: Average return -183.0
+Beta Collected 960/2000 :: Average return -133.0
+Beta Collected 980/2000 :: Average return -213.0
+Beta Collected 1000/2000 :: Average return -175.0
+Beta Collected 1020/2000 :: Average return -300.0
+Beta Collected 1040/2000 :: Average return -300.0
+Beta Collected 1060/2000 :: Average return -300.0
+Beta Collected 1080/2000 :: Average return -151.0
+Beta Collected 1100/2000 :: Average return -272.0
+Beta Collected 1120/2000 :: Average return -129.0
+Beta Collected 1140/2000 :: Average return -222.0
+Beta Collected 1160/2000 :: Average return -300.0
+Beta Collected 1180/2000 :: Average return -157.0
+Beta Collected 1200/2000 :: Average return -165.0
+Beta Collected 1220/2000 :: Average return -226.0
+Beta Collected 1240/2000 :: Average return -246.0
+Beta Collected 1260/2000 :: Average return -126.0
+Beta Collected 1280/2000 :: Average return -300.0
+Beta Collected 1300/2000 :: Average return -203.0
+Beta Collected 1320/2000 :: Average return -239.0
+Beta Collected 1340/2000 :: Average return -300.0
+Beta Collected 1360/2000 :: Average return -220.0
+Beta Collected 1380/2000 :: Average return -177.0
+Beta Collected 1400/2000 :: Average return -100.0
+Beta Collected 1420/2000 :: Average return -143.0
+Beta Collected 1440/2000 :: Average return -114.0
+Beta Collected 1460/2000 :: Average return -177.0
+Beta Collected 1480/2000 :: Average return -245.0
+Beta Collected 1500/2000 :: Average return -253.0
+Beta Collected 1520/2000 :: Average return -158.0
+Beta Collected 1540/2000 :: Average return -155.0
+Beta Collected 1560/2000 :: Average return -151.0
+Beta Collected 1580/2000 :: Average return -167.0
+Beta Collected 1600/2000 :: Average return -162.0
+Beta Collected 1620/2000 :: Average return -253.0
+Beta Collected 1640/2000 :: Average return -263.0
+Beta Collected 1660/2000 :: Average return -298.0
+Beta Collected 1680/2000 :: Average return -204.0
+Beta Collected 1700/2000 :: Average return -165.0
+Beta Collected 1720/2000 :: Average return -188.0
+Beta Collected 1740/2000 :: Average return -257.0
+Beta Collected 1760/2000 :: Average return -288.0
+Beta Collected 1780/2000 :: Average return -287.0
+Beta Collected 1800/2000 :: Average return -193.0
+Beta Collected 1820/2000 :: Average return -263.0
+Beta Collected 1840/2000 :: Average return -300.0
+Beta Collected 1860/2000 :: Average return -266.0
+Beta Collected 1880/2000 :: Average return -300.0
+Beta Collected 1900/2000 :: Average return -300.0
+Beta Collected 1920/2000 :: Average return -264.0
+Beta Collected 1940/2000 :: Average return -226.0
+Beta Collected 1960/2000 :: Average return -174.0
+Beta Collected 1980/2000 :: Average return -199.0
+Beta Collected 1999/2000 :: Average return -229.0
+Loaded model from last checkpoint...
+Eval Collected 0/30 :: Mean return -146.426
+Eval Collected 5/30 :: Mean return -148.024
+Eval Collected 10/30 :: Mean return -148.418
+Eval Collected 15/30 :: Mean return -145.178
+Eval Collected 20/30 :: Mean return -143.502
+Eval Collected 25/30 :: Mean return -145.294
+Eval Collected 29/30 :: Mean return -145.81
+Total time taken: 95.14912152290344
+
+5

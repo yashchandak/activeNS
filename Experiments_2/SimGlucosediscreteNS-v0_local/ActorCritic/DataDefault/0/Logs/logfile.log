@@ -1,0 +1,81 @@
+/home/yash/Projects/Control-NSDP/Environments
+Module path:  Src.Algorithms.ActorCritic ActorCritic
+Dynamically loaded from:  <class 'Src.Algorithms.ActorCritic.ActorCritic'>
+=====Configurations=====
+ Namespace(actor_lr=0.005, algo_name='ActorCritic', alpha=0.5, base=0, batch_size=1, critic_lr=0.001, debug=True, entropy_lambda=0.0001, env_name='SimGlucosediscreteNS-v0', experiment='Data', folder_suffix='Default', gamma=1, gpu=0, hyper=0, inc=8, log_output='term_file', max_episodes=10000, optim='rmsprop', raw_basis=True, restore=False, save_count=100, save_model=True, seed=8, speed=0, state_lr=0.001, summary=True, swarm=False, timestamp='4|20|16:28:8')
+Actions space: 16 :: State space: 1
+State Low: tensor([0.]) :: State High: tensor([1.])
+State features:  [('dummy_param', torch.Size([1]))]
+Policy:  [('fc1.weight', torch.Size([16, 1])), ('fc1.bias', torch.Size([16]))]
+Critic:  [('fc1.weight', torch.Size([1, 1])), ('fc1.bias', torch.Size([1]))]
+Loaded model from last checkpoint...
+Beta Collected 0/2000 :: Average return -8.644981224729882
+Beta Collected 20/2000 :: Average return 10.834068373117503
+Beta Collected 40/2000 :: Average return 10.834068373117503
+Beta Collected 60/2000 :: Average return -8.649111049690418
+Beta Collected 80/2000 :: Average return -8.644981224729882
+Beta Collected 100/2000 :: Average return 20.823610771879153
+Beta Collected 120/2000 :: Average return 20.823610771879153
+Beta Collected 140/2000 :: Average return 20.823610771879153
+Beta Collected 160/2000 :: Average return 20.823610771879153
+Beta Collected 180/2000 :: Average return 3.763845994217945
+Beta Collected 200/2000 :: Average return 20.823610771879153
+Beta Collected 220/2000 :: Average return -9.9996232
+Be
+Beta Collected 240/2000 :: Average return -3.36022876820
+Beta Co
+Beta Collected 260/2000 :: Average return 20.823610771879153
+Beta Collected 280/2000 :: Average return 20.823610771879153
+Beta Collected 300/2000 :: Average return 20.823610771879153
+Beta Collected 320/2000 :: Average return 3.763845994217945
+Beta Collected 340/2000 :: Average return 20.823610771879153
+Beta Collected 360/2000 :: Average return -1.09693892618602
+Beta Collected 380/2000 :: Average return -9.999623241992289
+Beta Collected 400/2000 :: Average return 20.823610771879153
+Beta Collected 420/2000 :: Average return 20.823610771879153
+Beta Collected 440/2000 :: Average return 20.823610
+
+Beta Collected 460/2000 :: Average return 11.296828414
+
+Beta Collec
+Beta Collected 480/2000 :: Average return -8.668740845876009
+Beta Collected 500/2000 :: Average return 20.823610771879153
+Beta Collected 520/2000 :: Average return 20.823610771879153
+Beta Collected 540/2000 :: Average return 10.834068373117503
+Beta Collected 560/2000 :: Average return 20.823610771879153
+Beta Collected 580/2000 :: Average return 10.834068373117503
+Beta Collected 600/2000 :: Average return -8.64613672516412
+Beta Collected 620/2000 :: Average return 15.757869088847528
+Beta Collected 640/2000 :: Average return 10.834068373117503
+Beta Collected 660/2000 :: Average return 0.5256
+Beta Collected 680/2000 :: Average return 23.73225468409527
+Bet
+Beta Collected 700/2000 :: Average return -12.96
+
+Beta Collected 720/
+Beta Collected 720/2000 :: Average return -8.644981224729882
+Beta Collected 740/2000 :: Average return 20.823610771879153
+Beta Collected 760/2000 :: Average return -5.9014580277354725
+Beta Collected 780/2000 :: Average return -8.649111049690418
+Beta Collected 800/2000 :: Average return 15.757869088847528
+Beta Collected 820/2000 :: Average return 20.823610771879153
+Beta Collected 840/2000 :: Average return -6.908892605113444
+Beta Collected 860/2000 :: Average return 20.823610771879153
+Beta Collected 880/2000 :: Average return 20.823610
+Beta Collected 900/2000 :: Average return -8.8139
+Beta Collected 920/2000 :: Average return -9.77656959564942
+Beta Col
+Beta Collected 940/2000 :: Average return -
+Beta Collected 960/2000
+Beta Collected 960/2000 :: Average return 14.023505736700017
+Beta Collected 980/2000 :: Average return 14.023505736700017
+Beta Collected 1000/2000 :: Average return -2.47128033665998
+Beta Collected 1020/2000 :: Average return 9.98629915158213
+Beta Collected 1040/2000 :: Average return 10.624469275050615
+Beta Collected 1060/2000 :: Average return 9.98629915158213
+Beta Collected 1080/2000 :: Average return 12.423641356072906
+Beta Collected 1100/2000 :: Average return 9.176908313669813
+Beta Collected 1120/2000 :: Average return -9.422199180850924
+Beta Collected 1140/2000 :: Average return -2.47128033665998
+Beta Collected 1160/2000 :: Average return 14.023505736700017
+Beta Collected 1180/2000 :: Average return 14.02350573670001710771879153ed 1180/2000 :: Average return -24.202475863345754

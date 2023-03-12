@@ -1,0 +1,152 @@
+/home/yash/Projects/Control-NSDP/Environments
+Module path:  Environments.IoBT.MEDEVAC MEDEVAC
+Dynamically loaded from:  <class 'Environments.IoBT.MEDEVAC.MEDEVAC'>
+(34, 3)
+Module path:  Src.Algorithms.ActorCritic ActorCritic
+Dynamically loaded from:  <class 'Src.Algorithms.ActorCritic.ActorCritic'>
+=====Configurations=====
+ Namespace(actor_lr=0.0001, algo_name='ActorCritic', alpha=0.5, base=0, batch_size=1, critic_lr=0.0005, debug=True, entropy_lambda=0.0001, env_name='MEDEVAC', experiment='Data', folder_suffix='Default', gamma=1, gpu=0, hyper=0, inc=20, log_output='term_file', max_episodes=10000, optim='rmsprop', raw_basis=True, restore=False, save_count=100, save_model=True, seed=20, speed=2, state_lr=0.0005, summary=True, swarm=False, timestamp='4|20|20:34:28')
+Actions space: 5 :: State space: 243
+State Low: tensor([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0.]) :: State High: tensor([1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+        1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+        1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+        1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+        1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+        1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+        1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+        1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+        1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+        1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+        1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+        1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+        1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+        1., 1., 1., 1., 1., 1., 1., 1., 1.])
+State features:  [('dummy_param', torch.Size([1]))]
+5
+Policy:  [('fc1.weight', torch.Size([5, 243])), ('fc1.bias', torch.Size([5]))]
+Critic:  [('fc1.weight', torch.Size([1, 243])), ('fc1.bias', torch.Size([1]))]
+Loaded model from last checkpoint...
+Beta Collected 0/2000 :: Average return 35.71408876322524
+Beta Collected 20/2000 :: Average return 23.70828621511231
+Beta Collected 40/2000 :: Average return 17.091867133338752
+Beta Collected 60/2000 :: Average return 17.921102714324867
+Beta Collected 80/2000 :: Average return 9.508522414916715
+Beta Collected 100/2000 :: Average return 0.8895556681681681
+Beta Collected 120/2000 :: Average return 10.206681997459386
+Beta Collected 140/2000 :: Average return 11.726745927504492
+Beta Collected 160/2000 :: Average return 8.757338184415678
+Beta Collected 180/2000 :: Average return 3.2064808183183184
+Beta Collected 200/2000 :: Average return 1.2748912537537538
+Beta Collected 220/2000 :: Average return 6.088194865471862
+Beta Collected 240/2000 :: Average return 1.9323569819819821
+Beta Collected 260/2000 :: Average return 9.613924194196498
+Beta Collected 280/2000 :: Average return 19.955115186071954
+Beta Collected 300/2000 :: Average return 31.05344133665779
+Beta Collected 320/2000 :: Average return 22.9373740551082
+Beta Collected 340/2000 :: Average return 34.36027658763956
+Beta Collected 360/2000 :: Average return 49.70021925837549
+Beta Collected 380/2000 :: Average return 47.37109071466199
+Beta Collected 400/2000 :: Average return 20.52214791349474
+Beta Collected 420/2000 :: Average return 24.610504518556752
+Beta Collected 440/2000 :: Average return 40.639677445020915
+Beta Collected 460/2000 :: Average return 70.19047011202282
+Beta Collected 480/2000 :: Average return 53.91705835698157
+Beta Collected 500/2000 :: Average return 41.224574443954005
+Beta Collected 520/2000 :: Average return 37.1372088877643
+Beta Collected 540/2000 :: Average return 66.35035887507519
+Beta Collected 560/2000 :: Average return 17.225112559114258
+Beta Collected 580/2000 :: Average return 44.90009432146297
+Beta Collected 600/2000 :: Average return 40.754408387224906
+Beta Collected 620/2000 :: Average return 16.254788400531492
+Beta Collected 640/2000 :: Average return 37.90024898106119
+Beta Collected 660/2000 :: Average return 17.572815988084624
+Beta Collected 680/2000 :: Average return 1.1041598348348347
+Beta Collected 700/2000 :: Average return 7.652997352510386
+Beta Collected 720/2000 :: Average return 9.790183162734303
+Beta Collected 740/2000 :: Average return 1.0132140015015014
+Beta Collected 760/2000 :: Average return 2.5218156156156155
+Beta Collected 780/2000 :: Average return 2.063939602102102
+Beta Collected 800/2000 :: Average return 8.903737888740606
+Beta Collected 820/2000 :: Average return 2.5521557432432433
+Beta Collected 840/2000 :: Average return 2.4593014264264266
+Beta Collected 860/2000 :: Average return 1.896311524024024
+Beta Collected 880/2000 :: Average return 16.871998810270888
+Beta Collected 900/2000 :: Average return 8.155880268346552
+Beta Collected 920/2000 :: Average return 8.66266889374895
+Beta Collected 940/2000 :: Average return 17.324050078019145
+Beta Collected 960/2000 :: Average return 42.583895298204624
+Beta Collected 980/2000 :: Average return 57.403818305179385
+Beta Collected 1000/2000 :: Average return 15.390706070554966
+Beta Collected 1020/2000 :: Average return 44.47886941429371
+Beta Collected 1040/2000 :: Average return 42.04206067403193
+Beta Collected 1060/2000 :: Average return 61.00166181911452
+Beta Collected 1080/2000 :: Average return 40.16760602260585
+Beta Collected 1100/2000 :: Average return 45.54824079341876
+Beta Collected 1120/2000 :: Average return 42.78388504714432
+Beta Collected 1140/2000 :: Average return 44.16471655028751
+Beta Collected 1160/2000 :: Average return 44.446540091866055
+Beta Collected 1180/2000 :: Average return 33.35450566583108
+Beta Collected 1200/2000 :: Average return 47.867886997886856
+Beta Collected 1220/2000 :: Average return 16.43098429070936
+Beta Collected 1240/2000 :: Average return 33.667478460681494
+Beta Collected 1260/2000 :: Average return 18.914097962885982
+Beta Collected 1280/2000 :: Average return 18.112057409002112
+Beta Collected 1300/2000 :: Average return 2.8292245495495494
+Beta Collected 1320/2000 :: Average return 8.681150708489506
+Beta Collected 1340/2000 :: Average return 18.024985897045074
+Beta Collected 1360/2000 :: Average return 9.000018353432411
+Beta Collected 1380/2000 :: Average return 1.1943515015015016
+Beta Collected 1400/2000 :: Average return 8.93599566112305
+Beta Collected 1420/2000 :: Average return 20.34836106549401
+Beta Collected 1440/2000 :: Average return 3.5008432057057055
+Beta Collected 1460/2000 :: Average return 10.312870886505129
+Beta Collected 1480/2000 :: Average return 26.73089043295198
+Beta Collected 1500/2000 :: Average return 17.911109122361864
+Beta Collected 1520/2000 :: Average return 19.03590191425083
+Beta Collected 1540/2000 :: Average return 13.995561788198899
+Beta Collected 1560/2000 :: Average return 39.93614756259646
+Beta Collected 1580/2000 :: Average return 22.982684168104445
+Beta Collected 1600/2000 :: Average return 22.71992985138288
+Beta Collected 1620/2000 :: Average return 31.383490716584056
+Beta Collected 1640/2000 :: Average return 49.604374
+Beta Collected 1660/2000 :: Average return 24.61691297407431
+Beta Collected 1680/2000 :: Average return 64.87901868577572
+Beta Collected 1700/2000 :: Average return 40.421538418404204
+Beta Collected 1720/2000 :: Average return 77.14236045205766
+Beta Collected 1740/2000 :: Average return 33.71225282993181
+Beta Collected 1760/2000 :: Average return 67.88296585721933
+Beta Collected 1780/2000 :: Average return 52.09283892304124
+Beta Collected 1800/2000 :: Average return 21.340862611086266
+Beta Collected 1820/2000 :: Average return 39.912116301851526
+Beta Collected 1840/2000 :: Average return 39.55585377718459
+Beta Collected 1860/2000 :: Average return 14.320046540154289
+Beta Collected 1880/2000 :: Average return 19.928628532432157
+Beta Collected 1900/2000 :: Average return 2.4383260885885885
+Beta Collected 1920/2000 :: Average return 34.21130534822345
+Beta Collected 1940/2000 :: Average return 21.866154700781664
+Beta Collected 1960/2000 :: Average return 1.98288506006006
+Beta Collected 1980/2000 :: Average return 3.3408059309309306
+Beta Collected 1999/2000 :: Average return 8.454263606400891
+Loaded model from last checkpoint...
+Eval Collected 0/30 :: Mean return 16.114673094401628
+Eval Collected 5/30 :: Mean return 15.953709157296412
+Eval Collected 10/30 :: Mean return 16.409240580148015
+Eval Collected 15/30 :: Mean return 16.08910955653506
+Eval Collected 20/30 :: Mean return 15.577505831385114
+Eval Collected 25/30 :: Mean return 15.365732975702578
+Eval Collected 29/30 :: Mean return 16.263392204469923
+Total time taken: 120.91174268722534
+810608
+4
+218
+647
