@@ -26,6 +26,8 @@ Code for that is available in /Swarm.
 
 Code for estimating the future performance:
 - OPE/hybrid.py 
+- OPE/passive.py 
+- OPE/stationary.py 
 
 
 ## Plots
